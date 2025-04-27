@@ -33,6 +33,8 @@ This project uses a **Support Vector Machine (SVM)** model to predict whether a 
 
 To get the best performance, we tune key SVM hyperparameters using **Grid Search with Cross-Validation**:
 
+- **parameter grid is simply a mapping of hyperparameter names to the list of values you want to try for each. Grid search will then exhaustively train and evaluate your model on every possible combination of those values.**
+
 1. **Parameters to tune:**  
    - `C` (regularization strength)  
    - `kernel` (e.g. `linear`, `rbf`, `poly`)  
